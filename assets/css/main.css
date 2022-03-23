@@ -29,7 +29,7 @@ html[xmlns] .clearfix {
 
 ul, li {
   padding: 0;
-  margin: 0;
+  
   
 }
 
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 p {
@@ -317,7 +317,15 @@ table{
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
+/* 
+---------------------------------------------
+See also
+--------------------------------------------- 
+*/
+.seealso li a{
+ font-size: 20px;
+ font-weight: bold;
+}
 
 
 /* 
