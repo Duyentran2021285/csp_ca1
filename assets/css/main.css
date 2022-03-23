@@ -1,21 +1,4 @@
 
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
 
 
 .row , div,.col-12{
@@ -47,7 +30,7 @@ html[xmlns] .clearfix {
 ul, li {
   padding: 0;
   margin: 0;
-  list-style: none;
+  
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -223,9 +206,6 @@ header
 
 
 
-.header-area.header-sticky .nav li a.active {
-  color: #ed563b;
-}
 
 @media (max-width: 1200px) {
   .header-area .navbar .nav li {
@@ -241,11 +221,7 @@ header
   .header-area .navbar .logo {
     color: #1e1e1e;
   }
-  .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active {
-    color: #ed563b!important;
-    opacity: 1;
-  }
+
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
@@ -277,9 +253,7 @@ header
   }
   
   
-  .header-area.header-sticky .nav {
-    margin-top: 80px !important;
-  }
+ 
  
  
 }
@@ -315,6 +289,33 @@ ol.tableofcontent{
 .tableofcontentbox h3{
   padding:5px 15px;
   text-align: center;
+}
+
+
+/* 
+---------------------------------------------
+Types table
+--------------------------------------------- 
+*/
+table,th,td{
+  border: 1px solid #a2a9b1;
+}
+
+th,td{
+  padding: 5px;
+}
+thead > tr{
+  background-color: #eaecf0;
+  text-align: center;
+  height: 50px;
+  font-size: 14px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table{
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -458,19 +459,3 @@ preloader
 }
 
 
-/* 
----------------------------------------------
-responsive
---------------------------------------------- 
-*/
-
-
-@media (max-width: 992px) {
-
-  
-
-}
-
-@media (max-width: 450px) {
- 
-}
