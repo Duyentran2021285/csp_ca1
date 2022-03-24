@@ -46,6 +46,9 @@ header, nav, section, article, aside, footer, hgroup {
 a {
   text-decoration: none !important;
 }
+a:hover {
+  text-decoration: underline !important;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
@@ -330,17 +333,33 @@ See also
 
 /* 
 ---------------------------------------------
+References
+--------------------------------------------- 
+*/
+.references > li {
+  font-size: 18px;
+}
+
+
+
+/* 
+---------------------------------------------
 footer
 --------------------------------------------- 
 */
 footer {
   text-align: center;
   padding: 30px 0px;
+  background-color: #f2f2f2;
+
 }
 
 footer p {
   color: #232d39;
-  font-size: 13px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
 }
 
 footer p a {
